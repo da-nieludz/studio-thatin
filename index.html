@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Thatin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #2b2b2b;
+      background-color: #fdfdfc;
+    }
+    header {
+      background: url('logo-pattern.png') center/cover no-repeat, #111;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header img.logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
+    }
+    header h1 { font-size: 2.5rem; letter-spacing: 2px; text-transform: lowercase; }
+    nav { background: #f4f4f4; padding: 1rem; text-align: center; }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+    }
+    section { padding: 4rem 2rem; max-width: 900px; margin: auto; }
+    section h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .services, .contact {
+      display: grid;
+      gap: 2rem;
+    }
+    .services div {
+      padding: 1rem;
+      border-left: 4px solid #111;
+    }
+    .motif {
+      background: url('Asset 20.jpg') repeat center;
+      height: 80px;
+      margin: 2rem 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+    button {
+      background: #111;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Asset 10.jpg" alt="Studio Thatin Logo" class="logo" />
+    <h1>studio thatin</h1>
+    <p>Designing spaces that feel like home</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="motif"></div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Studio Thátin is an Afrocentric design and build studio creating soulful, functional spaces that reflect culture, comfort, and individuality. Inspired by the number 13—symbolizing uniqueness—we craft homes and landscapes that tell a deeper story.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div><strong>Interior Design</strong><br/>Residential, commercial & custom furniture</div>
+      <div><strong>Landscape Design</strong><br/>Gardens, terraces, urban greening</div>
+      <div><strong>Design & Build</strong><br/>End-to-end renovations and installations</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Coming soon — a curated gallery of our favorite transformations, concepts and site stories.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact">
+      <p>Email: hello@studio_thatin.com</p>
+      <p>Instagram: @studio_thatin</p>
+      <p>Location: [Your city or studio address]</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Studio Thatin. All rights reserved.
+  </footer>
+</body>
+</html>
